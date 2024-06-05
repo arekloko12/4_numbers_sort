@@ -124,11 +124,18 @@ else:
                     d = str(d)+"(d)"
                     table_of_numbers = [c, b, d, a]
                 else:
-                    a = str(a)+"(a)"
-                    b = str(b)+"(b)"
-                    c = str(c)+"(c)"
-                    d = str(d)+"(d)"
-                    table_of_numbers = [c, d, b, a]
+                    if c >= d:
+                        a = str(a)+"(a)"
+                        b = str(b)+"(b)"
+                        c = str(c)+"(c)"
+                        d = str(d)+"(d)"
+                        table_of_numbers = [c, d, b, a]
+                    else:
+                        a = str(a)+"(a)"
+                        b = str(b)+"(b)"
+                        c = str(c)+"(c)"
+                        d = str(d)+"(d)"
+                        table_of_numbers = [d, c, b, a]
 
 for i in range(4):
     print(table_of_numbers[i], end=", ")
