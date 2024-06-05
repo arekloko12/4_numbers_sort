@@ -37,7 +37,7 @@ if a >= b:
                     else:
                         table_of_numbers.append(str(d)+"(d)")
                         table_of_numbers.append(str(c)+"(c)")
-                        table_of_numbers.append(str(b)+"(c)")
+                        table_of_numbers.append(str(b)+"(b)")
         else:
             if b >= c:
                 a = str(a)+"(a)"
