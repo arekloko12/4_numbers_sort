@@ -65,6 +65,20 @@ if a >= b:
                 c = str(c)+"(c)"
                 d = str(d)+"(d)"
                 table_of_numbers = [c, a, d, b]
+        else:
+            if c >= d:
+                a = str(a)+"(a)"
+                b = str(b)+"(b)"
+                c = str(c)+"(c)"
+                d = str(d)+"(d)"
+                table_of_numbers = [c, d, a, b]
+            else:
+                a = str(a)+"(a)"
+                b = str(b)+"(b)"
+                c = str(c)+"(c)"
+                d = str(d)+"(d)"
+                table_of_numbers = [d, c, a, b]
+                
 else:
     if a >= c:
         if a >= d:
