@@ -115,6 +115,12 @@ else:
                 c = str(c)+"(c)"
                 d = str(d)+"(d)"
                 table_of_numbers = [b, c, a, d]
+            else:
+                a = str(a)+"(a)"
+                b = str(b)+"(b)"
+                c = str(c)+"(c)"
+                d = str(d)+"(d)"
+                table_of_numbers = [c, b, a, d]
         else:
             if b >= c:
                 if b >= d:
@@ -130,6 +136,12 @@ else:
                         c = str(c)+"(c)"
                         d = str(d)+"(d)"
                         table_of_numbers = [b, d, c, a]
+                else:
+                    a = str(a)+"(a)"
+                    b = str(b)+"(b)"
+                    c = str(c)+"(c)"
+                    d = str(d)+"(d)"
+                    table_of_numbers = [d, b, c, a]
             else:
                 if b >= d:
                     a = str(a)+"(a)"
